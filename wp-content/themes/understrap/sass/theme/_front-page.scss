@@ -1,0 +1,146 @@
+.welcome-section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  .welcome-content-wrapper {
+    color: $header-text-color;
+    padding-top: 10rem;
+
+    .welcome-text {
+      font-size: 2.375rem;
+    }
+
+    .name {
+      font-weight: 800;
+      font-size: 2.55rem;
+    }
+
+    .position {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.about-me-section {
+
+  .about-me-text {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: $text-color;
+    width: 90%;
+  }
+}
+
+.my-skills-section {
+  background-color: $skills-section-bg;
+  .skills-list {
+    list-style: none;
+
+    .skill-label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $text-color;
+
+      &:before {
+        content: '[';
+        color: $secondary-color;
+        font-size: 60px;
+        text-align: right;
+        padding-right: 10px;
+      }
+
+      &:after {
+        content: ']';
+        color: $secondary-color;
+        font-size: 60px;
+        text-align: left;
+        padding-left: 10px;
+      }
+    }
+  }
+}
+
+.contact-me-section {
+  .contact-me-text {
+    font-size: 1.5rem;
+    color: $text-color;
+    width: 80%;
+  }
+
+  .fa-angle-double-down {
+    font-size: 5rem;
+    color: $secondary-color;
+  }
+
+  .contacts {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.1rem;
+
+    .fa {
+      color: $primary-color;
+    }
+
+    .contact-link {
+      color: $text-color;
+
+      &:hover {
+        text-decoration: none;
+        color: $secondary-color;
+        transition: 0.5s;
+      }
+    }
+
+    .contact {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.my-portfolio-section {
+  .portfolio-list {
+    list-style: none;
+
+    .portfolio-item {
+      margin-bottom: 15px;
+    }
+
+
+    .image-wrapper {
+      position: relative;
+
+      img {
+        min-width: 100%;
+      }
+
+      .overlay {
+        background-color: rgba(82, 237, 199, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        transition: all 0.7s ease-in-out;
+        left: 0;
+        transform: scale(0);
+
+        .item-link {
+          font-weight: 800;
+          color: #ffffff;
+
+          &:hover {
+            color: $primary-color;
+            transition: all 0.5s ease-in-out;
+            text-decoration: none;
+            padding: 15px 20px;
+            background-color: $secondary-color;
+          }
+        }
+      }
+
+      &:hover .overlay {
+        transform: scale(1);
+      }
+    }
+  }
+}
