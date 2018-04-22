@@ -10588,30 +10588,30 @@ body {
         text-align: left;
         padding-left: 10px; }
 
-.contact-me-section .contact-me-text {
-  font-size: 1.5rem;
-  color: #7e8287;
-  width: 80%; }
-
-.contact-me-section .fa-angle-double-down {
-  font-size: 5rem;
-  color: #cfc91d; }
-
-.contact-me-section .contacts {
-  list-style: none;
-  padding-left: 0;
-  font-size: 1.1rem; }
-  .contact-me-section .contacts .fa {
-    color: #02918c; }
-  .contact-me-section .contacts .contact-link {
-    color: #7e8287; }
-    .contact-me-section .contacts .contact-link:hover {
-      text-decoration: none;
-      color: #cfc91d;
-      -webkit-transition: 0.5s;
-      transition: 0.5s; }
-  .contact-me-section .contacts .contact {
-    margin-bottom: 20px; }
+.contact-me-section {
+  background-color: #efefe7; }
+  .contact-me-section .contact-me-text {
+    font-size: 1.5rem;
+    color: #7e8287;
+    width: 80%; }
+  .contact-me-section .fa-angle-double-down {
+    font-size: 5rem;
+    color: #cfc91d; }
+  .contact-me-section .contacts {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.1rem; }
+    .contact-me-section .contacts .fa {
+      color: #02918c; }
+    .contact-me-section .contacts .contact-link {
+      color: #7e8287; }
+      .contact-me-section .contacts .contact-link:hover {
+        text-decoration: none;
+        color: #cfc91d;
+        -webkit-transition: 0.5s;
+        transition: 0.5s; }
+    .contact-me-section .contacts .contact {
+      margin-bottom: 20px; }
 
 .my-portfolio-section .portfolio-list {
   list-style: none; }

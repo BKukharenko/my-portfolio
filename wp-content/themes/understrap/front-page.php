@@ -3,7 +3,7 @@ get_header();
 $container = get_theme_mod('understrap_container_type');
 ?>
 
-<div class="wrapper pt-0" id="single-wrapper">
+<div class="wrapper pt-0 pb-0" id="single-wrapper">
 
 	<?php
 			while (have_rows('home_modules')) : the_row();
