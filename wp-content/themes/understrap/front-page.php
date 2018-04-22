@@ -17,11 +17,11 @@ $container = get_theme_mod('understrap_container_type');
 					case 'my_skills_section' :
 						get_template_part('page-templates/modules/my-skills-section');
 						break;
-					case 'contact_me_section' :
-						get_template_part('page-templates/modules/contact-me-section');
-						break;
 					case 'my_portfolio_section' :
 						get_template_part('page-templates/modules/my-portfolio-section');
+						break;
+					case 'contact_me_section' :
+						get_template_part('page-templates/modules/contact-me-section');
 						break;
 					default:
 						break;

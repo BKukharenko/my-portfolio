@@ -37,8 +37,6 @@
                     </span>
                 </li>
 			<?php } ?>
-
-
         </ul>
     </div>
 </section>
