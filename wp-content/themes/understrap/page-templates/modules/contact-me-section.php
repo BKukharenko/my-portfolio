@@ -32,9 +32,9 @@
 			<?php if ( get_sub_field( 'telegram_nickname' ) ) { ?>
                 <li class="contact telegram">
                     <i class="fa fa-telegram"></i>
-                    <span class="telegram-name">
+                    <a href="tg://resolve?domain=<Belialius>" class="contact-link">
 				        <?= get_sub_field( 'telegram_nickname' ); ?>
-                    </span>
+                    </a>
                 </li>
 			<?php } ?>
         </ul>

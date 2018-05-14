@@ -10519,6 +10519,10 @@ body {
     padding-top: 20px;
     width: 25%; }
 
+.fa-angle-double-down {
+  font-size: 5rem;
+  color: #cfc91d; }
+
 .wrapper-navbar {
   background: #02918c;
   text-transform: uppercase; }
@@ -10560,6 +10564,19 @@ body {
   color: #7e8287;
   width: 90%; }
 
+.about-me-section .github-link {
+  color: #7e8287;
+  font-size: 1.5rem; }
+  .about-me-section .github-link:hover {
+    text-decoration: none;
+    color: #cfc91d;
+    -webkit-transition: 0.5s;
+    transition: 0.5s; }
+
+.about-me-section .fa-github-square {
+  color: #02918c;
+  font-size: 1.5rem; }
+
 .my-skills-section {
   background-color: #efefe7; }
   .my-skills-section .skills-list {
@@ -10594,9 +10611,6 @@ body {
     font-size: 1.5rem;
     color: #7e8287;
     width: 80%; }
-  .contact-me-section .fa-angle-double-down {
-    font-size: 5rem;
-    color: #cfc91d; }
   .contact-me-section .contacts {
     list-style: none;
     padding-left: 0;

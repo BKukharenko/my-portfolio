@@ -29,6 +29,22 @@
     color: $text-color;
     width: 90%;
   }
+
+  .github-link {
+    color: $text-color;
+    font-size: 1.5rem;
+
+    &:hover {
+      text-decoration: none;
+      color: $secondary-color;
+      transition: 0.5s;
+    }
+  }
+
+  .fa-github-square {
+    color: $primary-color;
+    font-size: 1.5rem;
+  }
 }
 
 .my-skills-section {
@@ -67,11 +83,6 @@
     font-size: 1.5rem;
     color: $text-color;
     width: 80%;
-  }
-
-  .fa-angle-double-down {
-    font-size: 5rem;
-    color: $secondary-color;
   }
 
   .contacts {
